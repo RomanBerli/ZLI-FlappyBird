@@ -37,9 +37,9 @@ public class GamesListActivity extends AppCompatActivity {
         initializeComponents();
 
         //Get
-        recyclerView = findViewById(R.id.gamesList);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        loadGames();
+        //recyclerView = findViewById(R.id.gamesList);
+        //recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        //loadGames();
     }
     private void loadGames(){
         RetrofitService retrofitService = new RetrofitService();
@@ -104,7 +104,7 @@ public class GamesListActivity extends AppCompatActivity {
                             // Now you can use the id
                             System.out.println("Lobby ID: " + id);
                             Logger.getLogger(GamesListActivity.class.getName()).log(Level.SEVERE, "Checkpoint: A1002: Response and successful"+id);
-                            Toast.makeText(GamesListActivity.this, "Game created successfully"+id, Toast.LENGTH_LONG).show();
+                            Toast.makeText(GamesListActivity.this, "Game created successfully", Toast.LENGTH_LONG).show();
                             // Weiterleitung zur Lobby
                         } else {
                             Logger.getLogger(GamesListActivity.class.getName()).log(Level.SEVERE, "Checkpoint: A1002: Successful but no response");
