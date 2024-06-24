@@ -1,0 +1,42 @@
+<!-- item_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Lobby ID or name -->
+    <TextView
+        android:id="@+id/textViewLobbyId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Speed -->
+    <TextView
+        android:id="@+id/textViewSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Players -->
+    <TextView
+        android:id="@+id/textViewPlayers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Join Game Button -->
+    <Button
+        android:id="@+id/buttonJoinGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join Game"
+        android:onClick="joinGame"
+        android:layout_gravity="end" />
+
+</LinearLayout>
