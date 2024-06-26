@@ -1,3 +1,8 @@
+//Author: Roman Berli
+//Date: 26.6.24
+//Version: 1.0
+//Desc. Lobby Klasse welche im Forum gefüllt und verschickt wird.
+
 package com.example.ueben1.lobby;
 
 public class Lobby {

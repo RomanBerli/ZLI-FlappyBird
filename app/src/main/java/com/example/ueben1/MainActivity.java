@@ -1,3 +1,8 @@
+//Author: Roman Berli
+//Date: 26.6.24
+//Version: 1.0
+//Desc. Main Activity, das erste was angezeigt wird.
+
 package com.example.ueben1;
 
 import android.content.Intent;

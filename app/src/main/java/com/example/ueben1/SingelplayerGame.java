@@ -1,3 +1,8 @@
+//Author: Roman Berli
+//Date: 26.6.24
+//Version: 1.0
+//Desc. Kleine klasse welche nach dem erstellen die gameview klasse aufruft.
+
 package com.example.ueben1;
 
 import android.app.Activity;

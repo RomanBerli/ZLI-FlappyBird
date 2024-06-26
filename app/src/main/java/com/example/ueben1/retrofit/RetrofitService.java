@@ -1,3 +1,8 @@
+//Author: Roman Berli
+//Date: 26.6.24
+//Version: 1.0
+//Desc. Retrofit service init
+
 package com.example.ueben1.retrofit;
 
 import com.google.gson.Gson;

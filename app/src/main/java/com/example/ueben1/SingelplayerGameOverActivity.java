@@ -1,3 +1,8 @@
+//Author: Roman Berli
+//Date: 26.6.24
+//Version: 1.0
+//Desc. Game Over screen. Wird nach dem Tod des Birds angezeigt. Holt den Highscore aus dem Dataisystem.
+
 package com.example.ueben1;
 
 import android.app.Activity;
@@ -11,26 +16,10 @@ import android.widget.Toast;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-
-import android.app.Activity;
-import android.content.Context;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.TextView;
-import android.widget.Toast;
-
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+
 
 public class SingelplayerGameOverActivity extends Activity {
     @Override

@@ -1,3 +1,8 @@
+//Author: Roman Berli
+//Date: 26.6.24
+//Version: 1.0
+//Desc. Mulitplayer Menu code. Only post data works.
+
 package com.example.ueben1;
 
 import android.content.Intent;

@@ -1,3 +1,8 @@
+//Author: Roman Berli
+//Date: 26.6.24
+//Version: 1.0
+//Desc. Interface der API, hier stehen die calls welche man aufrufen kann.
+
 package com.example.ueben1.retrofit;
 
 import com.example.ueben1.lobby.Lobby;

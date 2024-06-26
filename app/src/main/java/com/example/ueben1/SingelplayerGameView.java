@@ -1,3 +1,7 @@
+//Author: Roman Berli
+//Date: 26.6.24
+//Version: 1.0
+//Desc. Einzeilspieler game logik
 package com.example.ueben1;
 
 import static androidx.core.content.ContextCompat.startActivity;
